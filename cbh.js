@@ -2,9 +2,9 @@ var rule = {
     title:'s 文忠丨茶杯狐',
     host:'https://www.cbportal.org/',
     // homeUrl:'/',
-    url:'//cupfox-dianshiju/fyclass/page/fypage/.html',
+    url:'/cupfox-dianshiju/fyclass/page/fypage/.html',
     // http://shadiao8.com/vod/show/id/23/page/2.html
-    searchUrl:'/cupfoxsearch/-------------/?wd=**.html',
+    searchUrl:'/cupfoxsearch/-------------/?wd=.html',
     // https://www.cbportal.org/cupfoxsearch/-------------/page/fypage/wd/**.html
     searchable:2,//是否启用全局搜索,
     quickSearch:1,//是否启用快速搜索,
