@@ -1,5 +1,4 @@
-muban.首图2.二级.desc = ';;;.data--span:eq(0)&&Text;.data--span:eq(1)&&Text';
-muban.首图2.二级.tabs = '.stui-pannel__head h3';
+
 var rule={
 	title:'文忠丨茶杯狐',
 	模板:'首图2',
@@ -15,7 +14,7 @@ var rule={
 		3:{cateId:'3'},
 		4:{cateId:'4'}
 	},
-	searchUrl:'/cupfoxsearch/-------------/?wd=',
+	searchUrl:'/label/service',
 	class_parse: '.stui-header__menu li:gt(0):lt(5);a&&Text;a&&href;.*/(.*?).html',
 	搜索:muban.首图2.搜索2,
 }
