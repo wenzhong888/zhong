@@ -1,6 +1,6 @@
 var rule = {
     title:'s 文忠丨茶杯狐',
-    host:'http://shadiao8.com/',
+    host:'https://www.cbportal.org/',
     // homeUrl:'/',
     url:'//cupfox-dianshiju/fyclass/page/fypage/.html',
     // http://shadiao8.com/vod/show/id/23/page/2.html
