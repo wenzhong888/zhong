@@ -5,7 +5,7 @@ var rule = {
     url:'//cupfox-dianshiju/fyclass/page/fypage/.html',
     // http://shadiao8.com/vod/show/id/23/page/2.html
     searchUrl:'/cupfoxsearch/-------------/?wd=**.html',
-    // http://shadiao8.com/vod/search/page/fypage/wd/**.html
+    // https://www.cbportal.org/cupfoxsearch/-------------/page/fypage/wd/**.html
     searchable:2,//是否启用全局搜索,
     quickSearch:1,//是否启用快速搜索,
     filterable:0,//是否启用分类筛选,
@@ -13,8 +13,8 @@ var rule = {
         'User-Agent':'MOBILE_UA',
         // "Cookie": "searchneed=ok"
     },
-    class_name:'电影&电视剧&综艺&动漫&国产剧&泰剧&台剧&韩剧&日剧',
-    class_url:'1&2&5&3&15&23&20&18&21',
+    class_name:'电影&电视剧&综艺&风车动漫',
+    class_url:'1&2&3&4&',
     play_parse:true,
     lazy:'',
     limit:6,
