@@ -15,7 +15,7 @@ var rule={
 		3:{cateId:'3'},
 		4:{cateId:'4'}
 	},
-	searchUrl:'/search.php?page=fypage&searchword=**&searchtype=',
+	searchUrl:'https://www.cbportal.org/cupfoxsearch/-------------/?wd=',
 	class_parse: '.stui-header__menu li:gt(0):lt(5);a&&Text;a&&href;.*/(.*?).html',
 	搜索:muban.首图2.搜索2,
 }
