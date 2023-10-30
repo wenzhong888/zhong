@@ -1,48 +1,32 @@
 var rule = {
-    title: '文忠丨茶杯狐',
-    模板: '首图2',
-    host: 'https://www.cbportal.org/',
-    url: '/frim/fyfilter.html',
-    filterable: 1, //是否启用分类筛选
-    filter_url: '{{fl.cateId}}-fypage',
-    filter: {
-        "1": [
-            {
-                "key": "cateId",
-                "name": "分类",
-                "value": [
-                    {"n": "全部", "v": "1"},
-                    {"n": "动作", "v": "5"},
-                    {"n": "爱情", "v": "6"},
-                    {"n": "科幻", "v": "7"},
-                    {"n": "恐怖", "v": "8"},
-                    {"n": "喜剧", "v": "10"},
-                    {"n": "剧情", "v": "12"},
-                    {"n": "在线直播", "v": "28"}
-                ]
-            }
-        ],
-        "2": [
-            {
-                "key": "cateId",
-                "name": "分类",
-                "value": [
-                    {"n": "全部", "v": "2"},
-                    {"n": "国产剧", "v": "13"},
-                    {"n": "港台剧", "v": "14"},
-                    {"n": "欧美剧", "v": "15"},
-                    {"n": "日韩剧", "v": "16"}
-                ]
-            }
-        ]
+    title:'茶杯狐',
+    编码:'',
+    host:'https://www.cbportal.org',
+    homeUrl:'/',
+    url:'/fyclass/fypage.html[/fyclass/]',
+    detailUrl:'https://www.cbportal.org/cupfox-dianying/fyid.html',
+    searchUrl:'/cupfoxsearch/-------------/?wd=',
+    searchable:1,
+    quickSearch:0,
+    filterable:0,
+    filter:{},
+    filter_url:'style={{fl.style}}&zone={{fl.zone}}&year={{fl.year}}&fee={{fl.fee}}&order={{fl.order}}',
+    headers:{
+        'User-Agent':'MOBILE_UA',
+        "Cookie": "searchneed=ok"
     },
-    filter_def: {
-        1: {cateId: '1'},
-        2: {cateId: '2'},
-        3: {cateId: '3'},
-        4: {cateId: '4'}
-    },
-    searchUrl: 'https://www.cbportal.org/cupfoxsearch/{{searchWord}}-fypage{{page}}/',
-    class_parse: '.stui-header__menu li:gt(0):lt(5);a&&Text;a&&href;.*/(.*?).html',
-    搜索: muban.首图2.搜索2,
+    timeout:5000,
+    class_name:'电影&电视剧&动漫&综艺',
+    class_url:'1&2&3&4',
+    class_parse:'#side-menu:lt(1) li;a&&Text;a&&href;com/(.*?)/',
+    cate_exclude:'',
+    tab_exclude:'',
+    play_parse:true,
+    lazy:'',
+    limit:6,
+    double:true,
+    推荐:'.col-sm-6;h3&&Text;img&&data-src;.date&&Text;a&&href',
+    一级:'.col-sm-6;h3&&Text;img&&data-src;.date&&Text;a&&href',
+    二级:'*',
+    搜索:'.col-sm-6;h3&&Text;img&&data-src;.date&&Text;a&&href',
 }
