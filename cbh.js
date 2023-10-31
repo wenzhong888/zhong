@@ -5,7 +5,7 @@ var rule = {
     homeUrl:'/',
     url:'/fyclass/fypage.html[/fyclass/]',
     detailUrl:'https://www.cbportal.org/cupfox-dianying/fyid.html',
-    searchUrl:'/cupfoxsearch/-------------/?wd=',
+    searchUrl:'cupfoxsearch/**----------fypage---/',
     searchable:1,
     quickSearch:0,
     filterable:0,
