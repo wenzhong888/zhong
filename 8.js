@@ -3,7 +3,7 @@ muban.首图2.二级.tabs = '.stui-pannel__head h3';
 var rule={
 	title:'文忠丨8号',
 	模板:'首图2',
-	host:'http://www.bahaoyy.com',
+	host:'www.bahaoju.com',
 	// url:'/frim/fyclass-fypage.html',
 	url:'/frim/fyfilter.html',
 	filterable:1,//是否启用分类筛选,
