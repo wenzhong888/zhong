@@ -1,14 +1,14 @@
 {
   "spider": "https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/pg.jar",
-"lives":[{"name":"直播","type":0,"url":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/qnmlgb.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
+"lives":[{"name":"直播","type":0,"url":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/qnmlgb.json","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
   
   {"key":"豆瓣","name":"出售机顶盒 监控闭路 路由器 WiFi覆盖 网络线路优化 忠忠忠 ","type":3,"api":"csp_Douban","searchable":0,"changeable":1,		"ext": "https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/json/douban.json"
 		},
 
-{"key":"Panta","name":"🇨🇳忠🇨🇳丨移动云盘","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/ggg.json$$$https://www.91panta.cn/$$$null$$$1"},
-  								{"key":"影视车","name":"🇨🇳忠🇨🇳丨VIP网盘","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/ggg.json$$$https://www.weixine.net/$$$null$$$1$$$https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/json/wogg.json"},
+{"key":"Panta","name":"🇨🇳忠🇨🇳丨移动云盘","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/tokentemplate.json$$$https://www.91panta.cn/$$$null$$$1"},
+  								{"key":"影视车","name":"🇨🇳忠🇨🇳丨VIP网盘","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/tokentemplate.json$$$https://www.weixine.net/$$$null$$$1$$$https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/json/wogg.json"},
 
   		{
 			"key": "賤賤",
@@ -17,13 +17,13 @@
 			"api": "csp_Jianpian",
 			"searchable": 1,
 			"changeable": 1,
-			"ext": "https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/ggg.json$$$0",
+			"ext": "https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/tokentemplate.json$$$0",
 			"timeout":60
 		},
  {"key":"drpy_js_wz","name":"🇨🇳忠🇨🇳丨忠影视","type":3,"api":"https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js","ext":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/zhong.js"},
-		{"key":"Pan99","name":"🇨🇳忠🇨🇳丨99网盘","type":3,"api":"csp_Pan99","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/ggg.json$$$https://pan99.xyz$$$null$$$0"},
-		{"key":"Wogg","name":"🇨🇳忠🇨🇳丨超级网盘","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/ggg.json$$$https://api.wogg.xyz/$$$null$$$1$$$https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/json/wogg.json"},
-{"key":"Panta","name":"🇨🇳忠🇨🇳丨移动云盘","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/ggg.json$$$https://www.91panta.cn/$$$null$$$"},
+		{"key":"Pan99","name":"🇨🇳忠🇨🇳丨99网盘","type":3,"api":"csp_Pan99","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/tokentemplate.json$$$https://pan99.xyz$$$null$$$0"},
+		{"key":"Wogg","name":"🇨🇳忠🇨🇳丨超级网盘","type":3,"api":"csp_Wogg","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/tokentemplate.json$$$https://api.wogg.xyz/$$$null$$$1$$$https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/json/wogg.json"},
+{"key":"Panta","name":"🇨🇳忠🇨🇳丨移动云盘","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":30, "ext":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/tokentemplate.json$$$https://www.91panta.cn/$$$null$$$"},
 		{
 			"key": "NanGua",
 			"name": "南瓜|弹幕",
@@ -43,7 +43,7 @@
 			"searchable": 1,
 			"changeable": 1,
 			"timeout": 60,
-			"ext": "https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/ggg.json$$$https://www.66ss.org$$$null$$$1"
+			"ext": "https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/tokentemplate.json$$$https://www.66ss.org$$$null$$$1"
 		},
 
 {
