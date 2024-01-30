@@ -1,6 +1,6 @@
 {
   "spider": "https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/pg.jar",
-"lives":[{"name":"直播","type":0,"url":"https://files-accl.zohoexternal.com/public/workdrive-external/download/thgyqe61de4a8e013433e8ce663be2e38d5d0?x-cli-msg=%7B%22isFileOwner%22%3Afalse%2C%22version%22%3A%221.0%22%7D'","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
+"lives":[{"name":"直播","type":0,"url":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/qnmlgb.json'","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
   
@@ -33,7 +33,7 @@
 			"changeable": 1,
 			"ext": "null$$$1"
 		},
-{"key":"drpy_js_8号","name":"🇨🇳忠🇨🇳丨8号影院","type":3,"api":"https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js","ext":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/8.js"},
+{"key":"drpy_js_8号","name":"🇨🇳忠🇨🇳丨8号影院","type":3,"api":"https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/lib/drpy2.min.js","ext":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/8.js"}，
 {"key": "996影院","name": "996","type": 3,"api": "csp_Cs1369","searchable": 1,"changeable": 1},
 		{
 			"key": "新6V",
