@@ -1,6 +1,6 @@
 {
   "spider": "https://ghproxy.net/raw.githubusercontent.com/gaotianliuyun/gao/master/jar/pg.jar",
-"lives":[{"name":"直播","type":0,"url":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/qnmlgb.json","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
+"lives":[{"name":"直播","type":0,"url":"https://ghproxy.net/raw.githubusercontent.com/wenzhong888/zhong/main/qnmlgb.txt","playerType":1,"epg":"http://epg.112114.xyz/?ch={name}&date={date}","logo":"https://epg.112114.xyz/logo/{name}.png"}],
   "wallpaper": "http://饭太硬.top/深色壁纸/api.php",
   "sites": [
   
